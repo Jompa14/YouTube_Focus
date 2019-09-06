@@ -1,4 +1,5 @@
-"manifest_version": 2,
+{
+  "manifest_version": 2,
   "name": "YouTube_Focus",
   "version": "1.0",
 
@@ -8,10 +9,12 @@
     }
   },
 
-  "permissions": [
-    "https://youtube.com",
-    "https://youtube.com/*"
-  ],  
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content_scripts/content_focus.js"]
+    }
+  ],
 
   "browser_action": {
     "default_icon": "button/Focus.png",
@@ -21,7 +24,6 @@
   
   "web_accessible_resources": [
     "focus_mode.jpg",
-    "brain_mode.jpg",
+    "brain_mode.jpg"
   ]
-
 }
