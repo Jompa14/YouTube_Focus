@@ -3,12 +3,17 @@
   "name": "YouTube Focus",
   "version": "1.0",
   "authors": "Andrei Costa and João Paulo Buchholz",
+  "homepage_url": "https://github.com/Jompa14/YouTube_Focus/tree/master",
 
   "applications": {
     "gecko": {
       "id": "joao.buchholz@gmail.com"
     }
   },
+
+  "permissions": [
+    "activeTab"
+  ],
 
   "content_scripts": [
     {
