@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "YouTube Focus",
   "version": "1.0",
-  "authors": "Andrei Costa & João Paulo Buchholz",
+  "authors": "Andrei Costa and João Paulo Buchholz",
 
   "applications": {
     "gecko": {

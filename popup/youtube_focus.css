@@ -1,20 +1,26 @@
 html, body {
-  height: 100px;
-  width: 100px;
+  height: 100%;
+  width: 100%;
   margin: 0;
+  background-color: rgb(238, 238, 238);
 }
 
 .mode {
-  height: 30%;
-  width: 90%;
-  margin: 3% auto;
-  padding-top: 6%;
+  padding: 2px 5px;
+  line-height: 2;
+  width: 70px;
   text-align: center;
-  font-size: 1.5em;
-  background-color: #E5F2F2;
+  vertical-align: center;
+  border: none;
+  outline: none;
+  transition: all 200ms ease;
   cursor: pointer;
 }
 
+.mode.selected {
+  background-color: #666;
+}
+
 .mode:hover {
-  background-color: #CFF2F2;
+  background-color: #999;
 }
