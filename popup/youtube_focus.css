@@ -1,22 +1,36 @@
- body {
-
-  align-items: stretch;
-  box-sizing: content-box;
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  margin: auto;
-  position: relative;
-  width: 100%;
-  background-color: rgb(15, 59, 65);
-  border: solid white;
+html, body {
+    width: 100px;
+    background-color: rgb(15, 59, 65);
+    border: white;
  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .reset {
+    background-color: rgb(255, 199, 136);
+  }
+  
+  .reset:hover {
+    background-color: rgb(255, 172, 103);
+  }
+  
 
 h1 {
 
+  font-size: 110%;
   color: rgb(122, 51, 51);
   line-height: 0;
-  width: 70px;
+  width: 90%;
   margin: 2;
   text-align: center;
   border: none;
@@ -27,7 +41,7 @@ h2 {
 
   color: rgb(57, 179, 166);
   line-height: 0;
-  width: 70px;
+  width: 85%;
   margin: 0 2;
   text-align: center;
   border: none;
@@ -47,10 +61,11 @@ h2 {
 }
 
 .mode.selected {
-  color: rgb(255, 108, 103);
+  color: rgb(243, 69, 63);
   background-color:rgba(0, 139, 139, 0.521);
 }
 
 .mode:hover {
+  color: rgb(212, 103, 103);
   background-color: rgba(0, 139, 139, 0.452);
 }
