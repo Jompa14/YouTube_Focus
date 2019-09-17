@@ -5,11 +5,11 @@ Algorithm's operation is secret, but some researshers, like Gillaume Chaslot, ar
 
 So, our add-on tries to deal with that offering two ways:
 
-### **Youtube Focus Mode**:
+### **Youtube Focus Mode:**
 + Disable the recommended videos at the **home page**.
 + just allow **three suggested videos** at the "up next list".
 
-### 2- Youtube Brain Mode:
-+ Disable all the recommendations. _Daring you to enable your brain.
+### **Youtube Brain Mode:**
++ Disable all the recommendations. _Daring you to enable your brain_.
 
-Finelly, you can go back for the regular Youtube with a single click.
+Finelly, if you want to listen to music or just want to see the Youtube's recomendations, you can do that with a single click.
