@@ -1,4 +1,4 @@
-console.log('vai ter focus');
+console.log('vai ter brain');
 
 if (document.getElementById('youtubeFocusBrain')) {
 	document.head.removeChild(document.getElementById('youtubeFocusBrain'));
@@ -7,11 +7,13 @@ if (document.getElementById('youtubeFocusBrain')) {
 var style = document.createElement('style');
 style.type = 'text/css';
 style.id = 'youtubeFocusBrain';
-style.innerHTML = '.style-scope.ytd-compact-video-renderer { display: none; }';
+//style.innerHTML = '.style-scope.ytd-compact-video-renderer { display: none; }';
+style.innerHTML = '.ytd-watch-next-secondary-results-renderer { display: none; }';
 style.innerHTML += '.style-scope.ytd-compact-radio-renderer { display: none; }';
 style.innerHTML += '.style-scope.ytd-compact-playlist-renderer { display: none; }';
 style.innerHTML += '.ytp-endscreen-content { display: none; }';
 style.innerHTML += '.style-scope.ytd-shelf-renderer { display: none; }';
+
 document.head.appendChild(style);
 
 /*var autoplay = document.getElementById('toggle');

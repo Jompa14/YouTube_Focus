@@ -4,10 +4,17 @@ document.addEventListener("click", function(e) {
   }
 
   var chosenMode = e.target.textContent;
-  
+
+  var fileName = "/content_scripts/content_default.js";
+  if (chosenMode === 'Brain') {
+    fileName = "/content_scripts/content_brain.js";
+  } else if (chosenMode === 'Focus') {
+    fileName = "/content_scripts/content_focus.js";
+  }
+
   // para injetar o content script na página:
   chrome.tabs.executeScript(null, {
-    file: "/content_scripts/content_focus.js" 
+    file: fileName
   }); 
 
  //para obter a aba ativa:
