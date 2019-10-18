@@ -70,6 +70,7 @@ transition: all 200ms ease;
 cursor: pointer;
 }
 
+//trocar para "active", remover o background.
 .mode.selected {
 color: #FF6347;
 background-color:rgba(0, 139, 139, 0.521);
