@@ -1,8 +1,6 @@
 html {
   background-color: #191970;
-  border: 2px ghostwhite;
-  border-style: double;
-  border-width: thick;
+  border: 2px solid rgba(0, 139, 139, 0.452);
   max-width: 100%;
   margin: auto;
 }
@@ -58,7 +56,7 @@ outline: none;
 }
 
 .mode {
-font-family: arial;
+font-family: "arial black";
 color: ghostwhite;
 padding: 2px 5px;
 line-height: 2;
@@ -70,36 +68,12 @@ transition: all 200ms ease;
 cursor: pointer;
 }
 
-//trocar para "active", remover o background.
-.mode.selected {
+
+.mode.active {
 color: #FF6347;
-background-color:rgba(0, 139, 139, 0.521);
 }
 
 .mode:hover {
 color: #FF6347;
 background-color: rgba(0, 139, 139, 0.452);
 }
-
-.default {
-  font-family: arial;
-  color: ghostwhite;
-  padding: 2px 5px;
-  line-height: 2;
-  text-align: center;
-  vertical-align: center;
-  border: none;
-  outline: none;
-  transition: all 200ms ease;
-  cursor: pointer;
-  }
-  
-  .default.selected {
-  color: #FF6347;
-  background-color:rgba(0, 139, 139, 0.521);
-  }
-  
-  .default:hover {
-  color: #FF6347;
-  background-color: rgba(0, 139, 139, 0.452);
-  }

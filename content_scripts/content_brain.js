@@ -14,6 +14,7 @@ style.innerHTML += '.style-scope.ytd-compact-playlist-renderer { display: none; 
 style.innerHTML += '.ytp-endscreen-content { display: none; }';
 style.innerHTML += '.style-scope.ytd-shelf-renderer { display: none; }';
 
+
 document.head.appendChild(style);
 
 /*var autoplay = document.getElementById('toggle');
