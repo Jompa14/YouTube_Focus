@@ -16,13 +16,6 @@
     "tabs"
   ],
 
-      "content_scripts": [
-        {
-            "matches": [
-                "https://www.youtube.com/*"
-            ],
-
-
   "browser_action": {
     "default_icon": "button/Focus.png",
     "default_title": "YouTube Focus",
