@@ -11,20 +11,18 @@
     }
   },
 
+  "icons": {
+    "48": "button/Focus48.png",
+    "96": "button/Focus96.png"
+  },
+
   "permissions": [
     "activeTab",
     "tabs"
   ],
 
-      "content_scripts": [
-        {
-            "matches": [
-                "https://www.youtube.com/*"
-            ],
-
-
   "browser_action": {
-    "default_icon": "button/Focus.png",
+    "default_icon": "button/Focus48.png",
     "default_title": "YouTube Focus",
     "default_popup": "popup/youtube_focus.html"
   },
