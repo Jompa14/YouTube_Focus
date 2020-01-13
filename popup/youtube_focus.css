@@ -20,17 +20,12 @@ body {
   cursor: pointer;
 }
 
-.reset {
-  background-color: rgb(255, 199, 136);
+a {
+  text-decoration: none;
 }
-
-.reset:hover {
-  background-color: rgb(255, 199, 136);
-}
-
 
 h1 {
-font-family: "arial black";
+font-family: 'Quicksand', sans-serif;;
 font-size: 100%;
 letter-spacing: 1px;
 padding: 4px 4px 5px 4px;
@@ -43,7 +38,7 @@ outline: none;
 }
 
 h2 {
-font-family: "arial black";
+font-family: 'Quicksand', sans-serif;;
 letter-spacing: 3px;
 font-size: 100%;
 padding: 4px 4px 10px 4px;
@@ -56,7 +51,7 @@ outline: none;
 }
 
 .mode {
-font-family: "arial black";
+font-family: 'Quicksand', sans-serif;;
 color: ghostwhite;
 padding: 2px 5px;
 line-height: 2;
