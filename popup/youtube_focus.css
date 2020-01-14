@@ -25,6 +25,16 @@ a {
   outline: none;
 }
 
+a:hover {
+  color: midnightblue;
+  -webkit-text-stroke: 1.5px tomato;
+}
+
+a .title:hover {
+  color: midnightblue;
+  -webkit-text-stroke: 1px tomato;
+}
+
 h1 {
 font-family: 'Quicksand', sans-serif;;
 font-size: 100%;
