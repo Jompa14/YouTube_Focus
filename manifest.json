@@ -2,6 +2,7 @@
   "manifest_version": 2,
   "name": "YouTube Focus",
   "version": "1.0",
+  "description": "Disable the Youtube recommendations, hepling you to get a more focused expirience at youtube.com",
   "authors": "Andrei Costa and João Paulo Buchholz",
   "homepage_url": "https://github.com/Jompa14/YouTube_Focus/tree/master",
 
@@ -16,8 +17,25 @@
     "96": "button/Focus96.png"
   },
 
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/*"
+      ],
+      "js": [
+        "content_brain.js",
+        "content_focus.js",
+        "content_default.js",
+        "youtube_focus.js"
+      ],
+      "css": [
+        "youtube_focus.css"  
+      ]
+    }
+  ],
+
   "permissions": [
-    "activeTab",
+    "https://www.youtube.com/*",
     "tabs"
   ],
 
