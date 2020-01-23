@@ -32,7 +32,7 @@ a:hover {
 
 a .title:hover {
   color: midnightblue;
-  -webkit-text-stroke: 1px tomato;
+  -webkit-text-stroke: 1.5px tomato;
 }
 
 h1 {
