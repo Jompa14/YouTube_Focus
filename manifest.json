@@ -3,7 +3,7 @@
   "name": "YouTube Focus",
   "version": "1.0",
   "description": "Disable the Youtube recommendations, hepling you to get a more focused expirience at youtube.com",
-  "authors": "Andrei Costa and João Paulo Buchholz",
+  "author": "Andrei Costa and João Paulo Buchholz",
   "homepage_url": "https://github.com/Jompa14/YouTube_Focus/tree/master",
 
   "applications": {
