@@ -1,11 +1,16 @@
-html {
-  background-color: #191970;
-  border: 2px solid rgba(0, 139, 139, 0.452);
-  max-width: 100%;
-  margin: auto;
-}
 body {
   background-color: #191970;
+  border: 2.5px solid rgba(0, 139, 139, 0.452);
+  align-items: stretch;
+  box-sizing: content-box;
+  display: flex;
+  flex-direction: column;
+  height: @popup-content-height;
+  margin: 0 auto;
+  padding: @popup-content-padding;
+  position: relative;
+  width: 110px;
+
 }
 
 .hidden {
@@ -32,17 +37,16 @@ a:hover {
 
 a .title:hover {
   color: midnightblue;
-  -webkit-text-stroke: 1.5px tomato;
+  -webkit-text-stroke: 1px tomato;
 }
 
 h1 {
 font-family: 'Quicksand', sans-serif;;
 font-size: 100%;
 letter-spacing: 1px;
-padding: 4px 4px 5px 4px;
+padding: 8px 8px 5px 8px;
 color: #FF6347;
 margin: auto;
-margin-right: 5px;
 text-align: center;
 border: none;
 outline: none;
@@ -52,8 +56,8 @@ h2 {
 font-family: 'Quicksand', sans-serif;;
 letter-spacing: 3px;
 font-size: 100%;
-padding: 4px 4px 10px 4px;
-color: rgb(57, 179, 166);
+padding: 6px 8px 10px 8px;
+color: rgb(57, 179, 166)  ;
 line-height: 0;
 margin: auto;
 text-align: center;
@@ -82,4 +86,6 @@ color: #FF6347;
 .mode:hover {
 color: #FF6347;
 background-color: rgba(0, 139, 139, 0.452);
+background-size: 2px 5px;
+padding: 2px;
 }
