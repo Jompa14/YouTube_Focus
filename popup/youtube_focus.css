@@ -1,6 +1,6 @@
 body {
   background-color: #191970;
-  border: 2.5px solid rgba(0, 139, 139, 0.452);
+  border: 2px solid rgba(0, 139, 139, 0.452);
   align-items: stretch;
   box-sizing: content-box;
   display: flex;
