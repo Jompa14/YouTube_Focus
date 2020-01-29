@@ -43,10 +43,5 @@
     "default_icon": "button/Focus48.png",
     "default_title": "YouTube Focus",
     "default_popup": "popup/youtube_focus.html"
-  },
-  
-  "web_accessible_resources": [
-    "focus_mode.jpg",
-    "brain_mode.jpg"
-  ]
+  }
 }
