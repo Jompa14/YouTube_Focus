@@ -20,23 +20,18 @@
   "content_scripts": [
     {
       "matches": [
-        "https://www.youtube.com/*"
+        "*://*.youtube.com/*"
       ],
       "js": [
-        "content_brain.js",
-        "content_focus.js",
-        "content_default.js",
-        "youtube_focus.js"
+        "inject.js"
       ],
-      "css": [
-        "youtube_focus.css"  
-      ]
+      "run_at": "document_start"
     }
   ],
 
   "permissions": [
-    "https://www.youtube.com/*",
-    "tabs"
+    "*://*.youtube.com/*",
+    "storage"
   ],
 
   "browser_action": {
