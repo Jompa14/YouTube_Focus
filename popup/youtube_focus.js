@@ -3,13 +3,16 @@ document.addEventListener("click", function(e) {
     return;
   }
 
-  var chosenMode = e.target.textContent;
+  var targetClasses = e.target.classList;
+  var chosenMode = 'default';
 
   var fileName = "/content_scripts/content_default.js";
-  if (chosenMode === 'Brain') {
+  if (targetClasses.contains('mode-brain')) {
     fileName = "/content_scripts/content_brain.js";
-  } else if (chosenMode === 'Focus') {
+    chosenMode = 'brain';
+  } else if (targetClasses.contains('mode-focus')) {
     fileName = "/content_scripts/content_focus.js";
+    chosenMode = 'focus';
   }
 
   // para injetar o content script na página:
