@@ -10,7 +10,6 @@ body {
   padding: @popup-content-padding;
   position: relative;
   width: 110px;
-
 }
 
 .hidden {
@@ -41,51 +40,50 @@ a .title:hover {
 }
 
 h1 {
-font-family: 'Quicksand', sans-serif;;
-font-size: 100%;
-letter-spacing: 1px;
-padding: 8px 8px 5px 8px;
-color: #FF6347;
-margin: auto;
-text-align: center;
-border: none;
-outline: none;
+  font-family: 'Quicksand', sans-serif;;
+  font-size: 100%;
+  letter-spacing: 1px;
+  padding: 8px 8px 5px 8px;
+  color: #FF6347;
+  margin: auto;
+  text-align: center;
+  border: none;
+  outline: none;
 }
 
 h2 {
-font-family: 'Quicksand', sans-serif;;
-letter-spacing: 3px;
-font-size: 100%;
-padding: 6px 8px 10px 8px;
-color: rgb(57, 179, 166)  ;
-line-height: 0;
-margin: auto;
-text-align: center;
-border: none;
-outline: none;
+  font-family: 'Quicksand', sans-serif;;
+  letter-spacing: 3px;
+  font-size: 100%;
+  padding: 6px 8px 10px 8px;
+  color: rgb(57, 179, 166)  ;
+  line-height: 0;
+  margin: auto;
+  text-align: center;
+  border: none;
+  outline: none;
 }
 
 .mode {
-font-family: 'Quicksand', sans-serif;;
-color: ghostwhite;
-padding: 2px 5px;
-line-height: 2;
-text-align: center;
-vertical-align: center;
-border: none;
-outline: none;
-transition: all 200ms ease;
-cursor: pointer;
+  font-family: 'Quicksand', sans-serif;;
+  color: ghostwhite;
+  padding: 2px 5px;
+  line-height: 2;
+  text-align: center;
+  vertical-align: center;
+  border: none;
+  outline: none;
+  transition: all 200ms ease;
+  cursor: pointer;
 }
 
-
 .mode.active {
-color: #FF6347;
+  color: #FF6347;
 }
 
 .mode:hover {
-color: #FF6347;
-background-color: rgba(0, 139, 139, 0.452);
-background-size: 2px 5px;
-padding: 2px;
+  color: #FF6347;
+  background-color: rgba(0, 139, 139, 0.452);
+  background-size: 2px 5px;
+  padding: 2px;
 }

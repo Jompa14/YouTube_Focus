@@ -1,24 +1,23 @@
+chrome.storage.local.get().then(setMode);
+
 chrome.storage.onChanged.addListener(() => {
-  chrome.storage.local.get().then(results => {
-    console.log('storage.onChanged getted', results);
-
-    if (!results.chosenMode/* || !results.chosenMode.contains(['brain', 'focus', 'default'])*/) {
-      console.log('Wrong chosenMode!', results.chosenMode);
-      return;
-    }
-
-    if (results.chosenMode === 'brain') {
-      console.log('brain');
-      brain();
-    } else if (results.chosenMode === 'focus') {
-      console.log('focus');
-      focus();
-    } else {
-      console.log('normal');
-      normal();
-    }
-  });
+  chrome.storage.local.get().then(setMode);
 });
+
+function setMode(data) {
+  if (!data || !data.chosenMode/* || !data.chosenMode.contains(['brain', 'focus', 'default'])*/) {
+    console.log('Wrong chosenMode!', data.chosenMode);
+    return;
+  }
+
+  if (data.chosenMode === 'brain') {
+    brain();
+  } else if (data.chosenMode === 'focus') {
+    focus();
+  } else {
+    normal();
+  }
+}
 
 function normal() {
   if (document.getElementById('youtubeFocusBrain')) {
