@@ -1,6 +1,9 @@
+* {
+  font-family: 'Righteous', cursive;
+}
 body {
-  background-color: #191970;
-  border: 2px solid rgba(0, 139, 139, 0.452);
+  background-color: #0e0b16;
+  border: 2px solid #4717f6;
   align-items: stretch;
   box-sizing: content-box;
   display: flex;
@@ -29,30 +32,23 @@ a {
   outline: none;
 }
 
-a:hover {
-  color: midnightblue;
-  -webkit-text-stroke: 1.5px tomato;
-}
-
 a .title:hover {
-  color: midnightblue;
-  -webkit-text-stroke: 1px tomato;
+  color: #0e0b16;
+  -webkit-text-stroke: 1px#a239ca;
 }
 
 h1 {
-  font-family: 'Quicksand', sans-serif;;
   font-size: 100%;
   letter-spacing: 1px;
   padding: 8px 8px 5px 8px;
-  color: #FF6347;
+  color: #a239ca;
   margin: auto;
   text-align: center;
   border: none;
   outline: none;
 }
 
-h2 {
-  font-family: 'Quicksand', sans-serif;;
+h2 {  
   letter-spacing: 3px;
   font-size: 100%;
   padding: 6px 8px 10px 8px;
@@ -65,7 +61,6 @@ h2 {
 }
 
 .mode {
-  font-family: 'Quicksand', sans-serif;;
   color: ghostwhite;
   padding: 2px 5px;
   line-height: 2;
@@ -77,13 +72,8 @@ h2 {
   cursor: pointer;
 }
 
-.mode.active {
-  color: #FF6347;
-}
-
 .mode:hover {
-  color: #FF6347;
-  background-color: rgba(0, 139, 139, 0.452);
+  background-color: #4717d6;
   background-size: 2px 5px;
   padding: 2px;
 }
