@@ -77,3 +77,7 @@ h2 {
   background-size: 2px 5px;
   padding: 2px;
 }
+
+.active {
+  color:teal;
+}

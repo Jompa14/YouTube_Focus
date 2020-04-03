@@ -25,6 +25,7 @@ function normal() {
   }
 }
 
+
 function brain() {
   if (document.getElementById('youtubeFocusBrain')) {
     document.head.removeChild(document.getElementById('youtubeFocusBrain'));

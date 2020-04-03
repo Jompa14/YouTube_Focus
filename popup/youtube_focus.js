@@ -12,6 +12,13 @@ document.addEventListener("click", function(e) {
     chosenMode = 'focus';
   }
 
+  var active = e.target.parentNode.querySelector(".active");
+  if (active) {
+    active.classList.remove("active");
+  }
+
+  e.target.classList.add("active");
+
   chrome.storage.local.set({
     chosenMode
   });
