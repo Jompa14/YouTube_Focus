@@ -93,5 +93,5 @@ h2 {
 }
 
 .active {
-  color: red;
+  text-decoration: underline;
 }
