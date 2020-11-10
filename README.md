@@ -18,9 +18,9 @@ So, you can choose the way you want to deal with the Youtube's recommendations.
 ### **Brain Mode:**
 + Disable all the recommendations. _Daring you to enable your brain_.
 
-### ** Default Mode**
+### **Default Mode:**
 + Enable the recommendations whenever you want.
 
 ## Contributors
 
-A special thanks to [Andrei Costa] (https://github.com/andreicosta) who made this add-on possible!
+A special thanks to [Andrei Costa](https://github.com/andreicosta) who made this add-on possible!
