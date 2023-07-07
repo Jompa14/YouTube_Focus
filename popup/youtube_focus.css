@@ -91,7 +91,3 @@ h2 {
   border: solid rgba(223, 0, 60, 0.91) 1px;
   color: rgba(223, 0, 60, 0.91);
 }
-
-.active {
-  text-decoration: underline;
-}
